@@ -1,0 +1,39 @@
+*{
+    margin: 40px;
+    padding: 0px;
+}
+#calculator{
+background-color: #B2CAE9;
+text-align: center;
+padding-top: 20px;
+}
+#numbers{
+    width: 200px;
+    height: 50px; 
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: 5px solid rgb(109, 71, 71);
+    margin-bottom: 2px;
+    
+    
+}
+#digits{
+    padding-top: 5px;
+width: 15%;
+overflow: auto;
+background-color: #4A82CC;
+margin: auto;
+
+}
+#digits>div{
+    background-color: #B2CAE9;
+   height: 40px;
+   width: 38px;
+   margin: 5px;
+   float: left;
+   border-radius: 15px;
+}
+#digits>div:hover{
+    background-color: #49CC79;
+    box-shadow: 2px 2px 30px 3px white;
+}
